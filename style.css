@@ -15,7 +15,7 @@
     --white: hsl(0, 0%, 100%);
 }
 html {
-    font-size: 6px;
+    font-size: 14px;
 }
 body {
     background: var(--cream);
@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-      font-size: 6px;
+    font-size: 14px;
 }
 .product-img {
     width: 100%;
@@ -82,6 +82,9 @@ body {
     outline:0;
     border:0;
     font-weight:bold;
+}
+.product-button:hover {
+    background:hsl(158, 39%, 20%);
 }
 .attribution {
     font-size: 10px;
